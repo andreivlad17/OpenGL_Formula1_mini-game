@@ -1,0 +1,2 @@
+F:/Facultate/PG/Lab/lab2/lab2/lab2/OpenGL lib folder/include/glm/out/build/x64-Debug (default)/CMakeFiles/edit_cache.dir
+F:/Facultate/PG/Lab/lab2/lab2/lab2/OpenGL lib folder/include/glm/out/build/x64-Debug (default)/CMakeFiles/rebuild_cache.dir

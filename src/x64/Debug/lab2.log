@@ -1,0 +1,12 @@
+﻿  main.cpp
+A:\Windows Kits\10\Include\10.0.18362.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
+F:\Facultate\PG\Lab\lab2\lab2\lab2\OpenGL lib folder\include\GLFW\glfw3.h(123): message : see previous definition of 'APIENTRY'
+F:\Facultate\PG\Lab\lab2\lab2\lab2\main.cpp(398,49): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+F:\Facultate\PG\Lab\lab2\lab2\lab2\main.cpp(399,42): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+F:\Facultate\PG\Lab\lab2\lab2\lab2\main.cpp(427,49): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+F:\Facultate\PG\Lab\lab2\lab2\lab2\main.cpp(428,42): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+F:\Facultate\PG\Lab\lab2\lab2\lab2\main.cpp(495,45): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+F:\Facultate\PG\Lab\lab2\lab2\lab2\main.cpp(509,45): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+F:\Facultate\PG\Lab\lab2\lab2\lab2\main.cpp(536,27): warning C4305: '+=': truncation from 'double' to 'float'
+F:\Facultate\PG\Lab\lab2\lab2\lab2\main.cpp(545,30): warning C4305: '-=': truncation from 'double' to 'float'
+  lab2.vcxproj -> F:\Facultate\PG\Lab\lab2\lab2\x64\Debug\lab2.exe

@@ -1,0 +1,64 @@
+﻿  Camera.cpp
+  Car.cpp
+  main.cpp
+A:\Windows Kits\10\Include\10.0.18362.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
+F:\Facultate\PG\Lab\lab2\Proiect\OpenGL lib folder\include\GLFW\glfw3.h(123): message : see previous definition of 'APIENTRY'
+F:\Facultate\PG\Lab\lab2\Proiect\lab2\main.cpp(374,49): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+F:\Facultate\PG\Lab\lab2\Proiect\lab2\main.cpp(375,42): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+F:\Facultate\PG\Lab\lab2\Proiect\lab2\main.cpp(400,49): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+F:\Facultate\PG\Lab\lab2\Proiect\lab2\main.cpp(401,42): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+F:\Facultate\PG\Lab\lab2\Proiect\lab2\main.cpp(459,45): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+F:\Facultate\PG\Lab\lab2\Proiect\lab2\main.cpp(470,45): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+F:\Facultate\PG\Lab\lab2\Proiect\lab2\main.cpp(495,27): warning C4305: '+=': truncation from 'double' to 'float'
+F:\Facultate\PG\Lab\lab2\Proiect\lab2\main.cpp(504,30): warning C4305: '-=': truncation from 'double' to 'float'
+  Mesh.cpp
+F:\Facultate\PG\Lab\lab2\Proiect\lab2\Mesh.cpp(32,72): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  Model3D.cpp
+F:\Facultate\PG\Lab\lab2\Proiect\lab2\Model3D.cpp(89,40): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=GLuint
+          ]
+F:\Facultate\PG\Lab\lab2\Proiect\lab2\Model3D.cpp(97,46): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Shader.cpp
+  stb_image.cpp
+  tiny_obj_loader.cpp
+  Window.cpp
+  stb_image.c
+F:\Facultate\PG\Lab\lab2\Proiect\lab2\stb_image.c(119,1): warning C4028: formal parameter 2 different from declaration
+F:\Facultate\PG\Lab\lab2\Proiect\lab2\stb_image.c(429,1): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+F:\Facultate\PG\Lab\lab2\Proiect\lab2\stb_image.c(442,1): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+x64\Release\stb_image.obj : warning LNK4042: object specified more than once; extras ignored
+  Generating code
+  1708 of 1735 functions (98.4%) were compiled, the rest were copied from previous compilation.
+    103 functions were new in current compilation
+    2 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+LINK : warning LNK4286: symbol '__glewGenBuffers' defined in 'libglew32.lib(glew.obj)' is imported by 'Mesh.obj'
+LINK : warning LNK4286: symbol '__glewGenVertexArrays' defined in 'libglew32.lib(glew.obj)' is imported by 'Mesh.obj'
+LINK : warning LNK4286: symbol '__glewActiveTexture' defined in 'libglew32.lib(glew.obj)' is imported by 'Mesh.obj'
+LINK : warning LNK4286: symbol '__glewBufferData' defined in 'libglew32.lib(glew.obj)' is imported by 'Mesh.obj'
+LINK : warning LNK4286: symbol '__glewGetUniformLocation' defined in 'libglew32.lib(glew.obj)' is imported by 'Mesh.obj'
+LINK : warning LNK4286: symbol '__glewUniform1i' defined in 'libglew32.lib(glew.obj)' is imported by 'Mesh.obj'
+LINK : warning LNK4286: symbol '__glewBindBuffer' defined in 'libglew32.lib(glew.obj)' is imported by 'Mesh.obj'
+LINK : warning LNK4286: symbol '__glewVertexAttribPointer' defined in 'libglew32.lib(glew.obj)' is imported by 'Mesh.obj'
+LINK : warning LNK4286: symbol '__glewBindVertexArray' defined in 'libglew32.lib(glew.obj)' is imported by 'Mesh.obj'
+LINK : warning LNK4286: symbol '__glewEnableVertexAttribArray' defined in 'libglew32.lib(glew.obj)' is imported by 'Mesh.obj'
+LINK : warning LNK4286: symbol '__glewDeleteBuffers' defined in 'libglew32.lib(glew.obj)' is imported by 'Model3D.obj'
+LINK : warning LNK4286: symbol '__glewGenerateMipmap' defined in 'libglew32.lib(glew.obj)' is imported by 'Model3D.obj'
+LINK : warning LNK4286: symbol '__glewDeleteVertexArrays' defined in 'libglew32.lib(glew.obj)' is imported by 'Model3D.obj'
+LINK : warning LNK4286: symbol '__glewLinkProgram' defined in 'libglew32.lib(glew.obj)' is imported by 'Shader.obj'
+LINK : warning LNK4286: symbol '__glewDeleteShader' defined in 'libglew32.lib(glew.obj)' is imported by 'Shader.obj'
+LINK : warning LNK4286: symbol '__glewGetProgramInfoLog' defined in 'libglew32.lib(glew.obj)' is imported by 'Shader.obj'
+LINK : warning LNK4286: symbol '__glewShaderSource' defined in 'libglew32.lib(glew.obj)' is imported by 'Shader.obj'
+LINK : warning LNK4286: symbol '__glewAttachShader' defined in 'libglew32.lib(glew.obj)' is imported by 'Shader.obj'
+LINK : warning LNK4286: symbol '__glewGetProgramiv' defined in 'libglew32.lib(glew.obj)' is imported by 'Shader.obj'
+LINK : warning LNK4286: symbol '__glewGetShaderInfoLog' defined in 'libglew32.lib(glew.obj)' is imported by 'Shader.obj'
+LINK : warning LNK4286: symbol '__glewCreateProgram' defined in 'libglew32.lib(glew.obj)' is imported by 'Shader.obj'
+LINK : warning LNK4286: symbol '__glewCreateShader' defined in 'libglew32.lib(glew.obj)' is imported by 'Shader.obj'
+LINK : warning LNK4286: symbol '__glewCompileShader' defined in 'libglew32.lib(glew.obj)' is imported by 'Shader.obj'
+LINK : warning LNK4286: symbol '__glewGetShaderiv' defined in 'libglew32.lib(glew.obj)' is imported by 'Shader.obj'
+LINK : warning LNK4286: symbol '__glewUseProgram' defined in 'libglew32.lib(glew.obj)' is imported by 'Shader.obj'
+LINK : warning LNK4286: symbol 'glewInit' defined in 'libglew32.lib(glew.obj)' is imported by 'Window.obj'
+LINK : warning LNK4286: symbol 'glewExperimental' defined in 'libglew32.lib(glew.obj)' is imported by 'Window.obj'
+  lab2.vcxproj -> F:\Facultate\PG\Lab\lab2\Proiect\x64\Release\lab2.exe
